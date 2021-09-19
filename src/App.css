@@ -20,5 +20,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  background-image: url("./pics/cover.webp");
+  position: relative;
+}
+.card .debug_index {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  padding: 3px;
+}
+
+.card_img {
+  width: 100%;
+  height: 100%;
+  /* width: 30px; */
+  /* height: 30px; */
 }
